@@ -1,0 +1,28 @@
+ANONYMOUS fUNCTION
+==================	
+
+	var a = function(arr){
+    
+	var uppercased = arr.map(arr => arr.toUpperCase());
+   
+	return uppercased;
+
+	}
+
+
+	console.log(a(["Akshay","Anuja", "Ajay"]))
+
+
+
+
+
+IIFE
+=====
+	(function(str){
+
+	var name=str.map(str => str.toUpperCase());
+
+	
+	console.log(name);
+	
+	})(["akshay","Anuja","Ajay"]);

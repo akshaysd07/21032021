@@ -1,0 +1,25 @@
+
+IIFE
+======
+
+	(function(chars){  
+  
+	let uniqueChars = [...new Set(chars)];
+
+	console.log(uniqueChars);  
+    
+	})(['A', 'B', 'A', 'C', 'B'])
+
+
+Anonymous
+==========
+
+	var a = function(){
+
+	let uniqueChars = [...new Set(chars)];
+
+	return uniuechars;
+	
+	
+	}
+	console.log(a(['A', 'B', 'A', 'C', 'B']));

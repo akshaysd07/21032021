@@ -1,0 +1,39 @@
+
+anonymous
+=========
+
+	var a = function(){
+
+	var count = [1,2,3,4,5,6];
+
+
+	var sum=0 ;
+
+	
+	for(i=0; i<count.length; i+=1){
+
+	sum+=count[i];
+	
+	}
+	
+	return sum;
+
+	}
+
+	console.log(a());
+
+IIFE
+=====
+	(function(count){
+
+   	 var sum=0;
+   
+	 for(i=0; i<count.length; i+=1){
+     
+	sum+=count[i];
+        
+    
+	}
+	console.log(sum);
+
+	})([1,2,3,4,5]);
